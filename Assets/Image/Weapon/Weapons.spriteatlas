@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Weapons
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ee051b93ed7599f43b57c621c34b67f3, type: 3}
+    totalSpriteSurfaceArea: 698650
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a5d94a619d2ad044691c7c4f7284bfe5, type: 3}
+  - {fileID: 21300000, guid: 7db521742bc11cc458c40db659d9d51e, type: 3}
+  - {fileID: 21300000, guid: d8b6b435be4db1a4f9c8f9756bbe9022, type: 3}
+  - {fileID: 21300000, guid: dc22d666d48617540a8056cee31f201d, type: 3}
+  - {fileID: 21300000, guid: 479057b70e4a2cc4b83ddd7e18f60802, type: 3}
+  - {fileID: 21300000, guid: f826d9190ec23844e99f6db14380a522, type: 3}
+  - {fileID: 21300000, guid: 51c9d37f0853b2b449402e05780b102f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - bullet
+  - arrow
+  - BGG-0
+  - crossbow
+  - RPG_explosive
+  - crossbow_after
+  - RPG
+  m_RenderDataMap: {}
+  m_Tag: Weapons
+  m_IsVariant: 0

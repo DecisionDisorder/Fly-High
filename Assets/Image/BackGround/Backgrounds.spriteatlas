@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Backgrounds
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: e646a67a592e155498d90ade5820886f, type: 3}
+    - {fileID: 2800000, guid: eb490669787d0bf418135c1900b6c6b0, type: 3}
+    - {fileID: 2800000, guid: 02b7b87f5d6d5a8478e2543e9c9516fb, type: 3}
+    - {fileID: 2800000, guid: 9318787d72844124183baab1dbace45e, type: 3}
+    - {fileID: 2800000, guid: 62297d0a91be97c48b40c5cedca78445, type: 3}
+    totalSpriteSurfaceArea: 2368512
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: eb490669787d0bf418135c1900b6c6b0, type: 3}
+  - {fileID: 21300000, guid: 62297d0a91be97c48b40c5cedca78445, type: 3}
+  - {fileID: 21300000, guid: e646a67a592e155498d90ade5820886f, type: 3}
+  - {fileID: 21300000, guid: 9318787d72844124183baab1dbace45e, type: 3}
+  - {fileID: 21300000, guid: 02b7b87f5d6d5a8478e2543e9c9516fb, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ground_block_1.1
+  - white
+  - block
+  - stars_2
+  - stars_1
+  m_RenderDataMap: {}
+  m_Tag: Backgrounds
+  m_IsVariant: 0

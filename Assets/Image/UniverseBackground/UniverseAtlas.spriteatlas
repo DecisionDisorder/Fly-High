@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UniverseAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f5101e855be1679468d47ea6ebf4b06d, type: 3}
+    totalSpriteSurfaceArea: 9670113
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 55706c6052e0a34458f285e3dfb698ad, type: 3}
+  - {fileID: 21300000, guid: 4415f131fa10568478308e477795c861, type: 3}
+  - {fileID: 21300000, guid: 8cca19c38cb52b84e87b5e38963ed86b, type: 3}
+  - {fileID: 21300000, guid: 1d0d003565362904890f5fd24d9bf64f, type: 3}
+  - {fileID: 21300000, guid: 55537a454cb33bc4aa1a7a7ef9e61e76, type: 3}
+  - {fileID: 21300000, guid: 061be556be2de7645abefdf6ad01233f, type: 3}
+  - {fileID: 21300000, guid: fcea42477dc57f6448444e5fb5eb1bc2, type: 3}
+  - {fileID: 21300000, guid: 0c06ebf78bb10e343976bc379f9c0e7f, type: 3}
+  - {fileID: 21300000, guid: 856310c85350806429b45c80df9cca4a, type: 3}
+  - {fileID: 21300000, guid: 288989f960171e142a21cc442fee03cf, type: 3}
+  - {fileID: 21300000, guid: d2a131dae5217b54392ccd4cec3ef27b, type: 3}
+  - {fileID: 21300000, guid: 5997c95b159c57a46b5d7d2456425d1d, type: 3}
+  - {fileID: 21300000, guid: f33d594c030637c499696c651aa7443f, type: 3}
+  - {fileID: 21300000, guid: 9e49149c2c35c674eb540ea7bbfc97c9, type: 3}
+  - {fileID: 21300000, guid: c5a93a7e0253db74cb789fc177402cf0, type: 3}
+  - {fileID: 21300000, guid: 399989be58c332b43aade77f49593792, type: 3}
+  - {fileID: 21300000, guid: bfa4c0ce2c33c124593198f51eadaf6a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - nebula(1)
+  - stars
+  - nebula(4)
+  - Saturn
+  - nebula(2)
+  - nebula(3)
+  - Galaxy(1)
+  - Uranus
+  - Galaxy(2)
+  - nebula(0)
+  - cloud(1)
+  - cloud(0)
+  - Mars
+  - Galaxy(0)
+  - Jupiter
+  - cloud(2)
+  - Neptune
+  m_RenderDataMap: {}
+  m_Tag: UniverseAtlas
+  m_IsVariant: 0

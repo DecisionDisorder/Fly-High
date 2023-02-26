@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FlightProp
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 13
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 12c71d0f70e78464fa5a05ed06b086f7, type: 3}
+    totalSpriteSurfaceArea: 3156528
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ddad5f10c3d15d54a933ae0a64ae135d, type: 3}
+  - {fileID: 21300000, guid: 054b73a15a4fce349969a4121b7e1128, type: 3}
+  - {fileID: 21300000, guid: 51a4f6121a9980549a70868286dd3ce0, type: 3}
+  - {fileID: 21300000, guid: 23dd20e2c9bf3aa499ddb5ea18e19d03, type: 3}
+  - {fileID: 21300000, guid: fb7b2d58b6faf114bbe96c4e92f34519, type: 3}
+  - {fileID: 21300000, guid: 2929b7bac260b1f41b1115da829145d8, type: 3}
+  - {fileID: 21300000, guid: c1f9b33b0a286dc45adc8bb6ecc0d54b, type: 3}
+  - {fileID: 21300000, guid: 9424547c3da2b1d46aba5a9127cdd5a2, type: 3}
+  - {fileID: 21300000, guid: d148df5e95a4797448f6a7caeba897e5, type: 3}
+  - {fileID: 21300000, guid: 2659d0efa68b651488b75504388ca8b8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - star_light
+  - stone_2
+  - Coin_Middle
+  - meteor
+  - Fuel_Large
+  - Coin_Large
+  - Fuel_Small
+  - Coin_Small
+  - star_body
+  - stone_1
+  m_RenderDataMap: {}
+  m_Tag: FlightProp
+  m_IsVariant: 0

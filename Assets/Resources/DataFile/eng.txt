@@ -1,0 +1,404 @@
+{
+   "items":[
+      {
+        "key": "score",
+        "value": "Score"
+      },
+      {
+        "key": "gameover",
+        "value": "Game Over"
+      },
+      {
+        "key": "bestscore",
+        "value": "Best Score"
+      },
+      {
+        "key": "level",
+        "value": "Level"
+      },
+      {
+        "key": "tabletmsg00",
+        "value": "Cannot go to home screen on Game Over."
+      },
+      {
+        "key": "tabletmsg01",
+        "value": "Multi-tasking is not supported when the game is over."
+      },
+      {
+        "key": "noappsmsg",
+        "value": "No recently used apps"
+      },
+      {
+        "key": "coin",
+        "value": "Coin"
+      },
+      {
+        "key": "settings",
+        "value": "Settings"
+      },
+      {
+        "key": "equipment",
+        "value": "Equipment"
+      },
+      {
+        "key": "store",
+        "value": "Store"
+      },
+      {
+        "key": "stat",
+        "value": "Stat"
+      },
+      {
+        "key": "restart",
+        "value": "Restart"
+      },
+      {
+        "key": "tomenu",
+        "value": "To Menu"
+      },
+      {
+        "key": "stat_accelerate",
+        "value": "Accelerate Control Ability"
+      },
+      {
+        "key": "stat_efficiency",
+        "value": "Fuel Efficiency Improvement"
+      },
+      {
+        "key": "stat_starsearch",
+        "value": "Star Search Ability"
+      },
+      {
+        "key": "stat_coincollect",
+        "value": "Coin Collect Ability"
+      },
+        {
+            "key": "stat_reload",
+            "value": "Reload Speed Ability"
+        },
+        {
+            "key": "stat_booster",
+            "value": "Booster Power Ability"
+        },
+        {
+            "key": "stat_explain_accelerate",
+            "value": "Enable control the power of the rocket in flight."
+        },
+        {
+            "key": "stat_explain_efficiency",
+            "value": "Use fuel more efficiently in flight condition."
+        },
+        {
+            "key": "stat_explain_starsearch",
+            "value": "Increases the amount of additional scores obtained by star exploration"
+        },
+        {
+            "key": "stat_explain_coincollect",
+            "value": "Increases the amount of acquisition when collecting coins floating in space."
+        },
+        {
+            "key": "stat_explain_reload",
+            "value": "Increases the speed of the reload of the weapon."
+        },
+        {
+            "key": "stat_explain_booster",
+            "value": "Increases the power of the booster engine."
+        },
+        {
+            "key": "max_limit",
+            "value": "It's the maximum."
+        },
+      {
+        "key": "unusedstat",
+        "value": "Unused Stats"
+      },
+        {
+            "key": "position_0",
+            "value": "Training Pilot"
+        },
+        {
+            "key": "position_1",
+            "value": "Beginner Pilot"
+        },
+        {
+            "key": "position_2",
+            "value": "Pilot"
+        },
+        {
+            "key": "position_3",
+            "value": "Senior Pilot"
+        },
+        {
+            "key": "position_4",
+            "value": "Veteran Pilot"
+        },
+        {
+            "key": "position_5",
+            "value": "Captain of Spaceship"
+        },
+        {
+            "key": "position_6",
+            "value": "Director of Mission Direction Center"
+        },
+        {
+            "key": "position_7",
+            "value": "Mission Control Manager"
+        },
+        {
+            "key": "position_8",
+            "value": "General Manager of the Space Center"
+        },
+        {
+            "key": "purchase_success",
+            "value": "Purchase successed."
+        },
+        {
+            "key": "not_enough_coin",
+            "value": "Not enough coins."
+        },
+        {
+            "key": "already_purchased",
+            "value": "It's already purchased product."
+        },
+        {
+            "key": "vernier_compatibility",
+            "value": "The vernier engine can't be installed on the currently installed rocket."
+        },
+        {
+            "key": "not_owned_rocket",
+            "value": "It's a rocket you haven't purchased yet."
+        },
+        {
+            "key": "already_equipped_rocket",
+            "value": "It's already selected rocket."
+        },
+        {
+            "key": "upgrade_limit",
+            "value": "Unable to upgrade further."
+        },
+        {
+            "key": "weapon_compatibility",
+            "value": "The selected rocket is incompatible with this weapon"
+        },
+        {
+            "key": "not_owned_weapon",
+            "value": "It's a weapon you haven't purchased yet."
+        },
+        {
+            "key": "not_enough_stat",
+            "value": "Not enough unused stat points."
+        },
+        {
+            "key": "exit_message",
+            "value": "Press the Back button one more time to exit."
+        },
+        {
+            "key": "store_decoration",
+            "value": "Free shipping, \r\nImmediate Delivery"
+        },
+        {
+            "key": "rocket_name_0",
+            "value": "Bottle Rocket"
+        },
+        {
+            "key": "rocket_name_1",
+            "value": "Standard Rocket"
+        },
+        {
+            "key": "rocket_name_2",
+            "value": "Narrow Rocket"
+        },
+        {
+            "key": "rocket_name_3",
+            "value": "Powerful Rocket"
+        },
+        {
+            "key": "rocket_name_4",
+            "value": "Efficient Rocket"
+        },
+        {
+            "key": "rocket_name_5",
+            "value": "Ordinary Rocket"
+        },
+        {
+            "key": "weapon_name_0",
+            "value": "Crossbow"
+        },
+        {
+            "key": "weapon_name_1",
+            "value": "BGG-0"
+        },
+        {
+            "key": "weapon_name_2",
+            "value": "RPG"
+        },
+        {
+            "key": "item_name_0",
+            "value": "Emergency Fueling"
+        },
+        {
+            "key": "item_name_1",
+            "value": "Vernier Engine"
+        },
+        {
+            "key": "item_name_2",
+            "value": "Booster Engine"
+        },
+        {
+            "key": "item_name_3",
+            "value": "Shield"
+        },
+        {
+            "key": "fps_description",
+            "value": "Please select a fps that matches the spec of the device\r\nThe higher fps, the higher battery consumption."
+        },
+        {
+            "key": "rocket_upgrade_name_1",
+            "value": "Power"
+        },
+        {
+            "key": "rocket_upgrade_name_2",
+            "value": "Fuel Capacity"
+        },
+        {
+            "key": "rocket_upgrade_name_3",
+            "value": "Fuel Efficiency"
+        },
+        {
+            "key": "rocket_upgrade_desc_0",
+            "value": "Increases HP of the rocket."
+        },
+        {
+            "key": "rocket_upgrade_desc_1",
+            "value": "Increases power of the rocket."
+        },
+        {
+            "key": "rocket_upgrade_desc_2",
+            "value": "Increases fuel capacity of the rocket."
+        },
+        {
+            "key": "rocket_upgrade_desc_3",
+            "value": "Increases fuel efficiency of the rocket."
+        },
+        {
+            "key": "upgrade_text",
+            "value": "Upgrade"
+        },
+        {
+            "key": "resume_message",
+            "value": "Press the home/back button below to resume."
+        },
+        {
+            "key": "item_category_0",
+            "value": "Rocket"
+        },
+        {
+            "key": "item_category_1",
+            "value": "Weapon"
+        },
+        {
+            "key": "item_category_2",
+            "value": "Item"
+        },
+        {
+            "key": "bullet_name_0",
+            "value": "Arrow"
+        },
+        {
+            "key": "bullet_name_1",
+            "value": "Bullet"
+        },
+        {
+            "key": "bullet_name_2",
+            "value": "High Explosive"
+        },
+        {
+            "key": "rocket_spec_2",
+            "value": "Weight"
+        },
+        {
+            "key": "weapon_spec_0",
+            "value": "Bullet Capacity"
+        },
+        {
+            "key": "weapon_spec_1",
+            "value": "Damage"
+        },
+        {
+            "key": "bullet_quantity",
+            "value": "Bullet Quantity"
+        },
+        {
+            "key": "item_quantity",
+            "value": "Item Quantity"
+        },
+        {
+            "key": "cancel",
+            "value": "Cancel"
+        },
+        {
+            "key": "purchase",
+            "value": "Purchase"
+        },
+        {
+            "key": "item_desc_0",
+            "value": "Refuels {0}% of the total fuel immediately."
+        },
+        {
+            "key": "item_desc_1",
+            "value": "When equipped, it propels with {0} power and {1} fuel instead of the main engine."
+        },
+        {
+            "key": "item_desc_2",
+            "value": "<color=red>[Booster power ability stat must be acquired to be used]</color>\r\nInstantaneously propels with stronger force for {0} seconds."
+        },
+        {
+            "key": "item_desc_3",
+            "value": "Protects the rocket with a shield with {0} protection."
+        },
+        {
+            "key": "price",
+            "value": "Price"
+        },
+        {
+            "key": "after_purchase",
+            "value": "After Purchasing"
+        },
+        {
+            "key": "fps_display",
+            "value": "FPS Display"
+        },
+        {
+            "key": "zero_quantity",
+            "value": "It was canceled because the quantity was set to 0."
+        },
+        {
+            "key": "not_have_weapon",
+            "value": "You can't purchase bullets because you don't have the weapon."
+        },
+        {
+            "key": "booster_unable",
+            "value": "Booster power ability stat is not acquired, so booster use is not possible."
+        },
+        {
+            "key": "rocket_stage",
+            "value": "stage"
+        },
+        {
+            "key": "decide_button_mode_desc",
+            "value": "(Default) Click the yellow button separately when setting the angle and power."
+        },
+        {
+            "key": "decide_trigger_mode_desc",
+            "value": "Set the angle when touching the yellow button, and set the power when taking your hand off the button."
+        },
+        {
+            "key": "decide_button_mode",
+            "value": "Button Mode"
+        },
+        {
+            "key": "decide_trigger_mode",
+            "value": "Trigger Mode"
+        }
+   ]
+}

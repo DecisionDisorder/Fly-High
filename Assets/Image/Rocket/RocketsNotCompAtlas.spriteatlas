@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RocketsNotCompAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: bbd950a3f5bc9024c834ac6007cd6aa1, type: 3}
+    totalSpriteSurfaceArea: 4042840
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1ff62b70ba03c2d4da55e721e5b06d81, type: 3}
+  - {fileID: 21300000, guid: 01ae6ab08ca06f24bbba0a2f65caf755, type: 3}
+  - {fileID: 21300000, guid: 840e676340ee17249b33f77b0cad698e, type: 3}
+  - {fileID: 21300000, guid: baafa1a360bc1ba40a006918e184619e, type: 3}
+  - {fileID: 21300000, guid: 0b3c1335aeb055149996a72a4a014df4, type: 3}
+  - {fileID: 21300000, guid: 2259a0a766042974ea37da1d85beefd6, type: 3}
+  - {fileID: 21300000, guid: 6701ad398f42cc04998e3ccc9ec7deb2, type: 3}
+  - {fileID: 21300000, guid: d49dcb7934146f943aa4d7b03211761d, type: 3}
+  - {fileID: 21300000, guid: e57bfa1ab6e621346a0b0dba6576041b, type: 3}
+  - {fileID: 21300000, guid: a45f890cfb503dd458423ee4c68f0cc3, type: 3}
+  - {fileID: 21300000, guid: 3f27581df04142045af4398bbe7a2266, type: 3}
+  - {fileID: 21300000, guid: 317e2edef10ef5245885fbf0a6f20c8f, type: 3}
+  - {fileID: 21300000, guid: 2af10c2fb6c4f544bb0ff730d8a01fe4, type: 3}
+  - {fileID: 21300000, guid: 01081a6fbd6ac47478bf7790550214f2, type: 3}
+  - {fileID: 21300000, guid: 0ad9b8bfe9ded4d48a6cd26badb8c228, type: 3}
+  - {fileID: 21300000, guid: c6926eff60cf14540a99f1d115538ded, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - efficient_body_rocket
+  - efficient_full_rocket
+  - narrow_launcher_fullshot 1
+  - powerful_launcher
+  - narrow_launcher_fullshot
+  - Gear
+  - efficient_fullshot
+  - ordinary_rocket_body
+  - ordinary_rocket_full
+  - powerful_rocket
+  - ordinary_fullshot
+  - efficient_head_rocket
+  - narrow_launcher
+  - powerful_fullshot
+  - ordinary_rocket_head
+  - narrow_rocket
+  m_RenderDataMap: {}
+  m_Tag: RocketsNotCompAtlas
+  m_IsVariant: 0

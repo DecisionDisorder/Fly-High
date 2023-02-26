@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a7bf9c1d235bf4dbff8eed6ff16fd4, type: 3}
+  m_Name: BottleRocketData
+  m_EditorClassIdentifier: 
+  rocketType: 0
+  itemData:
+    itemName: Bottle Rocket
+    price: 0
+    hasItem: 1
+    quantity: 0
+  imagePreset:
+    rocketSprite: {fileID: 21300000, guid: 7a82b50c7e2a34048aad358acf859bc8, type: 3}
+    rotate: -30
+  hp: 10
+  maxPower:
+  - 1
+  weight:
+  - 0.1
+  fuel:
+  - 2
+  fuelEfficienty: 0.08
+  weaponCompatibility: 000000
+  weaponPositions: []
+  a: -0.0069
+  b: 1.6039
+  c: 8.61

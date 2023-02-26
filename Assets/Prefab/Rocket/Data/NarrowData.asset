@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a7bf9c1d235bf4dbff8eed6ff16fd4, type: 3}
+  m_Name: NarrowData
+  m_EditorClassIdentifier: 
+  rocketType: 2
+  itemData:
+    itemName: Narrow
+    price: 6000
+    hasItem: 0
+    quantity: 0
+  imagePreset:
+    rocketSprite: {fileID: 21300000, guid: c6926eff60cf14540a99f1d115538ded, type: 3}
+    rotate: 30
+  hp: 125
+  maxPower:
+  - 50
+  weight:
+  - 1.5
+  fuel:
+  - 10
+  fuelEfficienty: 3.5
+  weaponCompatibility: 010100
+  weaponPositions:
+  - weaponType: 0
+    position: {x: 0, y: 3.5}
+  - weaponType: 1
+    position: {x: -1, y: 0}
+  - weaponType: 2
+    position: {x: 0, y: 0}
+  a: -0.0069
+  b: 1.6039
+  c: 8.61

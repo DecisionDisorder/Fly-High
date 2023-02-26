@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f64e6676578be614896a3fd36fc01832, type: 3}
+    - {fileID: 102900000, guid: 58000e5c3aaac4240b1bc0701e7e0e6f, type: 3}
+    totalSpriteSurfaceArea: 9558804
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 84e504005bcb1294999143e8c8757656, type: 3}
+  - {fileID: 21300000, guid: a39ed8108a9e1cc4eab74dca042bb7c7, type: 3}
+  - {fileID: 21300000, guid: dad63b50f51c5fe439492f87f9afea74, type: 3}
+  - {fileID: 21300000, guid: 33c65f51f70fdcf4ab5842ebea9746d9, type: 3}
+  - {fileID: 21300000, guid: 2a448b91ced69b34daa70db1146e08b7, type: 3}
+  - {fileID: 21300000, guid: dc1a56c1d65659a43b3ef7a4014d7f48, type: 3}
+  - {fileID: 21300000, guid: e9d3ea3247f57a946821b5185a4c9a98, type: 3}
+  - {fileID: 21300000, guid: c94bc3e2079668c47a747681ec2512be, type: 3}
+  - {fileID: 21300000, guid: 9bfad4f2f4ba69e4698023c532956f84, type: 3}
+  - {fileID: 21300000, guid: 1824bf13589d0d64dabdcbee47f7f884, type: 3}
+  - {fileID: 21300000, guid: 6314ab23f9095b542afcb7a62adfcb71, type: 3}
+  - {fileID: 21300000, guid: ad72b3735bc363f46b71eabc5eda5630, type: 3}
+  - {fileID: 21300000, guid: a76688a39a1e903458d740a2fbaca7f4, type: 3}
+  - {fileID: 21300000, guid: 2df05d2401655b5448c312e4da67b702, type: 3}
+  - {fileID: 21300000, guid: ca2099945b1726649bd31f2f55868324, type: 3}
+  - {fileID: 21300000, guid: 6122ba35491805a47aa00e7ff0b4e41c, type: 3}
+  - {fileID: 21300000, guid: 803718f5f24baec45923fce42a72ab6d, type: 3}
+  - {fileID: 21300000, guid: 9fc23bf56a8223d42b0bd9d6da7e5ad3, type: 3}
+  - {fileID: 21300000, guid: 9a6c5d16b042b634889779cb1528f8ab, type: 3}
+  - {fileID: 21300000, guid: 47612f666ce76574296767e3e4595f33, type: 3}
+  - {fileID: 21300000, guid: 956014765dd30fd49a6d3b3eb22bf6dd, type: 3}
+  - {fileID: 21300000, guid: 2f2289170de243544a9dcd278beb1c83, type: 3}
+  - {fileID: 21300000, guid: c6ba0977cff7b994e81fdadce0866924, type: 3}
+  - {fileID: 21300000, guid: b5d37f87975ec4443987615ffaa3b67f, type: 3}
+  - {fileID: 21300000, guid: b17499d792cd27840b2f71cccee65dcd, type: 3}
+  - {fileID: 21300000, guid: d336e4f708cb0af4d8133606494efbca, type: 3}
+  - {fileID: 21300000, guid: eb49db38ca71f7842a06beaabc8f4c76, type: 3}
+  - {fileID: 21300000, guid: 6f688658cf4dd5d4c99da56f27f8e691, type: 3}
+  - {fileID: 21300000, guid: 8912b488db5909b42b51f1ded2c14db6, type: 3}
+  - {fileID: 21300000, guid: d88cf988a16ddd14c8da1c48802f5d6c, type: 3}
+  - {fileID: 21300000, guid: 6db54ab8a1eaef04f91d9248bf6af49f, type: 3}
+  - {fileID: 21300000, guid: ae155db8bccefb0479f9140e5e179ecc, type: 3}
+  - {fileID: 21300000, guid: 483995699f7d3c641b955e73013841c9, type: 3}
+  - {fileID: 21300000, guid: 4e70b979ecd91994e9be7e03987090a7, type: 3}
+  - {fileID: 21300000, guid: ee5744b97f19594448ecd3bc6e1838b4, type: 3}
+  - {fileID: 21300000, guid: e801dbc9b82d4384aaa0118681c03c52, type: 3}
+  - {fileID: 21300000, guid: bbb46f3a33e8e6e41af03e6f8288ff09, type: 3}
+  - {fileID: 21300000, guid: ffc7204a147e95344a1c24a69f87f5d9, type: 3}
+  - {fileID: 21300000, guid: 4364db6aaea70c849a5bccee372a1812, type: 3}
+  - {fileID: 21300000, guid: f678448aa21523b449f71b27227287e8, type: 3}
+  - {fileID: 21300000, guid: ee0ed6baa9e1cc84b978c5a527a0cc24, type: 3}
+  - {fileID: 21300000, guid: 353832daf12e4074ba7d9f810311ec04, type: 3}
+  - {fileID: 21300000, guid: 21f8080b0114b21488f50468389d8698, type: 3}
+  - {fileID: 21300000, guid: ae9da15b9c12a5c41884b892bc70c4e4, type: 3}
+  - {fileID: 21300000, guid: cd5db10c351a06244b5666290b788ed5, type: 3}
+  - {fileID: 21300000, guid: 167dec0cc4aff8644b50744db39af34f, type: 3}
+  - {fileID: 21300000, guid: d7d47c1ce2822244ab78a537ef6c1f99, type: 3}
+  - {fileID: 21300000, guid: cf2b484cefb7bc04fbb6d19bb863181f, type: 3}
+  - {fileID: 21300000, guid: 43cb4a4c1fc965f4b8a7af794ba02838, type: 3}
+  - {fileID: 21300000, guid: 636f397ccee72c2408a3426c9587cfa0, type: 3}
+  - {fileID: 21300000, guid: 8a03609ced002aa4b97db6b0bf38b2d0, type: 3}
+  - {fileID: 21300000, guid: 8966bbdce38c6c2478526876ed890612, type: 3}
+  - {fileID: 21300000, guid: 6a22dddc4a62576439d549870873759c, type: 3}
+  - {fileID: 21300000, guid: 1b42e44d5b6017e43abf9ad4872ebc24, type: 3}
+  - {fileID: 21300000, guid: e2a4cd6d98dfa8a46bd4f0e1fad01718, type: 3}
+  - {fileID: 21300000, guid: 0c76757dbf0b99c48abdbde51a677a6d, type: 3}
+  - {fileID: 21300000, guid: a0676ebda4ec4ac46b0f449b771b3cdb, type: 3}
+  - {fileID: 21300000, guid: 66d9cdedb13b0b344ba03495f6f56a55, type: 3}
+  - {fileID: 21300000, guid: 420e669e43541ce4293ba10c429cdcc6, type: 3}
+  - {fileID: 21300000, guid: ca175fefbc0edc84b86055c8bdac0b23, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - RectangleMoldBackground
+  - LaunchLever_on
+  - home_UI
+  - sliced_exp_inside
+  - decideY_button
+  - Button_noFrame
+  - tablet_UI_landscape
+  - slider_fill_rect
+  - pointer
+  - decide_button
+  - DashboardBackground
+  - tabletDisplay_UI
+  - StatUp
+  - appIcon_equip
+  - appIcon_restart
+  - EXP_slider_Back
+  - power_gage_outside
+  - AngulatedMold(128)
+  - shot_button
+  - UpgradeStatus
+  - EXP_LvMenu
+  - Language
+  - play_button
+  - RollOfPaper
+  - background_sound_off
+  - multitasking_UI
+  - sliderHandle
+  - tabletDisplay_UI_landscape
+  - appIcon_store
+  - DashboardInside
+  - FPS_Icon
+  - appIcon_setting
+  - background_sound
+  - fuelGage
+  - TV
+  - white_round
+  - RectanbleMold
+  - AngulatedMold(512)
+  - LaunchLever_off
+  - sliced_exp_inside_2
+  - fuelmark
+  - slider_background_rect
+  - appIcon_stat
+  - tableOpenButton
+  - effect_sound_off
+  - sliderBar
+  - tablet_UI
+  - Coin
+  - power
+  - Language 1
+  - Dashboard
+  - bullet Icon
+  - UpgradeStatus_noFrame
+  - xOnCircle
+  - effect_sound
+  - CoinIcon
+  - Button
+  - appIcon_menu
+  - back_UI
+  - Cash
+  m_RenderDataMap: {}
+  m_Tag: UI
+  m_IsVariant: 0
