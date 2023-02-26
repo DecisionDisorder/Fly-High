@@ -175,7 +175,7 @@ public class Obstacle : FlyingObject
     {
         yield return new WaitForSeconds(time);
 
-        SpawnManager.instance.ReturnObstacle(this);
+        SpawnManager.instance.ReturnFlyingObject(this);
         ObstacleImg.SetActive(true);
     }
 }

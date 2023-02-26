@@ -49667,9 +49667,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67e286319b5f02c42bf3da31b18c2af3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  launch: {fileID: 0}
   rocket_rigid: {fileID: 3807715362112711934}
   codeObj: {fileID: 0}
+  launch: {fileID: 0}
 --- !u!68 &5335964647620035290
 EdgeCollider2D:
   m_ObjectHideFlags: 0

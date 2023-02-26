@@ -77,12 +77,12 @@ public class FlyingObject : MonoBehaviour
         if(RocketSet.instance.IsRocketRight())
         {
             if(positonOnCamera.x < -Screen.width || positonOnCamera.y < -Screen.height * 0.05f)
-                SpawnManager.instance.ReturnObstacle(this);
+                SpawnManager.instance.ReturnFlyingObject(this);
         }
         else
         {
             if(positonOnCamera.x > Screen.width || positonOnCamera.y < -Screen.height * 0.05f)
-                SpawnManager.instance.ReturnObstacle(this);
+                SpawnManager.instance.ReturnFlyingObject(this);
         }
 
         if (gameObject.activeInHierarchy)

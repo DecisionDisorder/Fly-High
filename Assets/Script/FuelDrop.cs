@@ -41,7 +41,7 @@ public class FuelDrop : FlyingObject
         {
             // 연료 보충 후 회수
             RocketSet.instance.FuelRemain += RocketSet.instance.fuelMax[RocketSet.instance.currentStage] * fuelRecovery;
-            SpawnManager.instance.ReturnObstacle(this);
+            SpawnManager.instance.ReturnFlyingObject(this);
         }
     }
 }

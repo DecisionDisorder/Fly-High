@@ -59,7 +59,7 @@ public class CoinDrop : FlyingObject
             int add = Random.Range(min, max);
             add = (int)((add - (add % 5)) * statEffect); // ÄÚÀÎ È¹µæ·® Áõ°¡ ½ºÅÈ °è»ê Àû¿ë
             EconomicMgr.instance.BonusCoin(add);
-            SpawnManager.instance.ReturnObstacle(this);
+            SpawnManager.instance.ReturnFlyingObject(this);
             SpawnManager.instance.SetBonusText(1, add);
             coinAudio.Play();
         }

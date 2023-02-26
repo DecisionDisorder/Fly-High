@@ -53,7 +53,7 @@ public class StarDrop : FlyingObject
         if (collision.transform.tag.Equals("Player"))
         {
             PlayManager.instance.AddScore((int)(starPoint * statEffect));
-            SpawnManager.instance.ReturnObstacle(this);
+            SpawnManager.instance.ReturnFlyingObject(this);
             SpawnManager.instance.SetBonusText(0, (int)(starPoint * statEffect));
             starAudio.Play();
         }

@@ -2,28 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 로켓의 화염 효과를 관리하는 클래스
+/// </summary>
 public class RocketFire : MonoBehaviour
 {
-    /*public RectTransform fire_rectT;
-    public SpriteRenderer fire_spriteRenderer;
-    private Vector2 originalSize;
-    private float currentRatio;
-    private float effectRatio = 0f;
-    private float minEffect = 0.8f;
-    private float fireEffectSpeed = 0.6f;
-    IEnumerator fireEffectAnimation;*/
-
+    /// <summary>
+    /// 로켓의 메인 화염 파티클 이펙트
+    /// </summary>
     public ParticleSystem fireEffect;
+    /// <summary>
+    /// 로켓의 서브(child) 화염 파티클 이펙트 배열
+    /// </summary>
     public ParticleSystem[] otherFireEffects;
+    /// <summary>
+    /// 화염이 퍼지는 최소 속도
+    /// </summary>
     public float minSpeed;
+    /// <summary>
+    /// 화염이 퍼지는 최대 속도
+    /// </summary>
     public float maxSpeed;
 
+    /// <summary>
+    /// 사용자가 조절한 출력 비율에 따라서 화염의 크기를 조절한다
+    /// </summary>
+    /// <param name="ratio">출력 비율</param>
     public void FireSizeSync(float ratio)
     {
-        /*currentRatio = ratio;
-        fire_rectT.offsetMin = new Vector2(0, originalSize.y - originalSize.y * ratio);
-        fire_rectT.offsetMax = Vector2.zero;
-        fire_spriteRenderer.size = fire_rectT.rect.size;*/
         ParticleSystem.MainModule main = fireEffect.main;
         float speed = GetSpeed(ratio);
         main.startSpeed = new ParticleSystem.MinMaxCurve(speed);
@@ -37,6 +43,11 @@ public class RocketFire : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 비율에 따른 화염 이펙트가 퍼지는 속도 값을 구한다.
+    /// </summary>
+    /// <param name="ratio">출력 비율</param>
+    /// <returns>화염의 속도</returns>
     private float GetSpeed(float ratio)
     {
         float speed = (maxSpeed - minSpeed) * ratio + minSpeed;
@@ -46,56 +57,4 @@ public class RocketFire : MonoBehaviour
         else
             return speed;
     }
-    
-    /*private void OnEnable()
-    {
-        fireEffectAnimation = FireEffectAnimation(true);
-        StartCoroutine(fireEffectAnimation);
-    }
-
-    private void OnDisable()
-    {
-        effectRatio = 0f;
-        StopCoroutine(fireEffectAnimation);
-    }
-
-    IEnumerator FireEffectAnimation(bool isIncrease)
-    {
-        yield return new WaitForEndOfFrame();
-        
-        float size = originalSize.y - originalSize.y * currentRatio * effectRatio;
-
-        if (effectRatio < minEffect)
-        {
-            effectRatio += fireEffectSpeed * 3 * Time.deltaTime;
-        }
-        else
-        {
-            
-            if (isIncrease)
-            {
-                effectRatio += fireEffectSpeed * Time.deltaTime;
-                if (effectRatio > 1)
-                {
-                    effectRatio = 1;
-                    isIncrease = false;
-                }
-            }
-            else
-            {
-                effectRatio -= fireEffectSpeed * Time.deltaTime;
-                if (effectRatio < minEffect)
-                {
-                    effectRatio = minEffect;
-                    isIncrease = true;
-                }
-            }
-        }
-        fire_rectT.offsetMin = new Vector2(0, size);
-        fire_rectT.offsetMax = Vector2.zero;
-        fire_spriteRenderer.size = fire_rectT.rect.size;
-
-        fireEffectAnimation = FireEffectAnimation(isIncrease);
-        StartCoroutine(fireEffectAnimation);
-    }*/
 }
