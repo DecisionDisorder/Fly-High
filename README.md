@@ -62,3 +62,9 @@ APK 빌드 테스트 때 프레임이 30에서 40으로 낮게 유지되는 문�
 Excel을 이용하여 key와 value를 정리했으며, key에는 언어 공통으로 사용할 코드, value에는 언어별 텍스트를 입력하였습니다.  
 xlsx 파일을 json 형식으로 변환 후, C#의 Dictionary로 읽어들여 Text UI에 적용하였습니다.  
 (관련 코드: [LocalizationManager.cs](https://github.com/DecisionDisorder/Fly-High/blob/master/Assets/Script/LocalizationManager.cs "LocalizationManager.cs"))
+
+## 기타
+### [외부 리소스 출처]
+- 폰트1: 폰트랩(주) 'LAB디지털'
+- 폰트2: (주)위메프 '위메프체'
+- 폰트3: 비씨카드(주) 'BC카드 글꼴'
