@@ -33,16 +33,14 @@
 (Minimum API Level: Android 5.0)
 
 ### [스크린샷]
-<figure class="third">
-	<img src="/Screenshots/Screenshot1.png" width=50% height=50%/>
-	<img src="/Screenshots/Screenshot2.png" width=50% height=50%/>
-	<img src="/Screenshots/Screenshot3.png" width=50% height=50%/>
-	<img src="/Screenshots/Screenshot4.png" width=50% height=50%/>
-	<img src="/Screenshots/Screenshot5.png" width=50% height=50%/>
-	<img src="/Screenshots/Screenshot6.png" width=50% height=50%/>
-	<img src="/Screenshots/Screenshot7.png" width=50% height=50%/>
-	<img src="/Screenshots/Screenshot8.png" width=50% height=50%/>
-</figure>
+<img src="/Screenshots/Screenshot1.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot2.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot3.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot4.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot5.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot6.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot7.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot8.png" width=50% height=50%/>
 
 ## 기술 관련 소개
 ### [개발환경 및 기술 스택]
