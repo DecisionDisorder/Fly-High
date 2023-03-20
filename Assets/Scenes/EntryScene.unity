@@ -24040,7 +24040,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018748889}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9bdd6d8e813fee646bd82507baade0d5, type: 3}
   m_Name: 
@@ -24067,6 +24067,9 @@ MonoBehaviour:
   itemManager: {fileID: 1397468421}
   backgroundControl: {fileID: 0}
   testDisplayMode: 0
+  folderName: ScreenShots
+  fileName: ScreenShot
+  extName: png
 --- !u!1 &1024215890
 GameObject:
   m_ObjectHideFlags: 0

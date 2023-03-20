@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 /// <summary>
 /// 테스트 도우미 클래스
@@ -80,6 +82,13 @@ public class TestHelper : MonoBehaviour
     /// </summary>
     public bool testDisplayMode;
 
+    public string folderName = "ScreenShots";
+    public string fileName = "ScreenShot";
+    public string extName = "png";
+    private string RootPath { get { return Application.dataPath; } }
+    private string FolderPath => $"{RootPath}/{folderName}";
+    private string TotalPath => $"{FolderPath}/{fileName}_{DateTime.Now.ToString("MMdd_HHmmss")}.{extName}";
+
     private void Start()
     {
         if (SceneManager.GetActiveScene().buildIndex.Equals(1))
@@ -92,6 +101,18 @@ public class TestHelper : MonoBehaviour
             else
                 testData.SetActive(false);
         }
+
+        StartCoroutine(InputUpdate());
+    }
+
+    IEnumerator InputUpdate()
+    {
+        yield return new WaitForEndOfFrame();
+
+        if (Input.GetKey(KeyCode.F8))
+            Screenshot();
+
+        StartCoroutine(InputUpdate());
     }
 
     /// <summary>
@@ -109,6 +130,31 @@ public class TestHelper : MonoBehaviour
             flyTime_text.text = "Flying Time: " + string.Format("{0:0.00}", flyTime += Time.deltaTime);
 
         StartCoroutine(TestDataUpdate());
+    }
+
+    private void Screenshot()
+    {
+        string totalPath = TotalPath;
+        Texture2D screenTex = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+        Rect area = new Rect(0f, 0f, Screen.width, Screen.height);
+        screenTex.ReadPixels(area, 0, 0);
+        try
+        {
+            if (Directory.Exists(FolderPath) == false)
+            {
+                Directory.CreateDirectory(FolderPath);
+            }
+
+            File.WriteAllBytes(totalPath, screenTex.EncodeToPNG());
+            Debug.Log($"Screen Shot Saved : {totalPath}");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogWarning($"Screen Shot Save Failed : {totalPath}");
+            Debug.LogWarning(ex);
+        }
+
+
     }
 
     /// <summary>
