@@ -34,21 +34,21 @@
 
 ### [스크린샷]
 <입장 화면>  
-<img src="/Screenshots/Screenshot1.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot1.png" width=50% height=50%/>  
 <태블릿 UI>  
-<img src="/Screenshots/Screenshot2.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot2.png" width=50% height=50%/>  
 <상점 앱>  
-<img src="/Screenshots/Screenshot3.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot3.png" width=50% height=50%/>  
 <상점 구매>  
-<img src="/Screenshots/Screenshot4.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot4.png" width=50% height=50%/>  
 <로켓 발사>  
-<img src="/Screenshots/Screenshot5.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot5.png" width=50% height=50%/>  
 <로켓 비행>  
-<img src="/Screenshots/Screenshot6.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot6.png" width=50% height=50%/>  
 <로켓 1단 분리>  
-<img src="/Screenshots/Screenshot7.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot7.png" width=50% height=50%/>  
 <로켓 2단 추진>  
-<img src="/Screenshots/Screenshot8.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot8.png" width=50% height=50%/>  
 
 ## 기술 관련 소개
 ### [개발환경 및 기술 스택]
