@@ -31,15 +31,16 @@
 본 게임은 안드로이드 배포를 기준으로 개발되어 iOS 빌드에 대한 테스트는 진행되지 않았습니다.  
 게임 설치는 APK 디렉토리의 Alpha 0.0.11 버전의 APK를 다운로드 받아 설치할 수 있습니다.  
 (Minimum API Level: Android 5.0)
+
 ### [스크린샷]
-<img src="/Screenshots/ScreenShot1.png" width=50% height=50%/>
-<img src="/Screenshots/ScreenShot2.png" width=50% height=50%/>
-<img src="/Screenshots/ScreenShot3.png" width=50% height=50%/>
-<img src="/Screenshots/ScreenShot4.png" width=50% height=50%/>
-<img src="/Screenshots/ScreenShot5.png" width=50% height=50%/>
-<img src="/Screenshots/ScreenShot6.png" width=50% height=50%/>
-<img src="/Screenshots/ScreenShot7.png" width=50% height=50%/>
-<img src="/Screenshots/ScreenShot8.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot1.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot2.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot3.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot4.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot5.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot6.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot7.png" width=50% height=50%/>
+<img src="/Screenshots/Screenshot8.png" width=50% height=50%/>
 
 ## 기술 관련 소개
 ### [개발환경 및 기술 스택]
