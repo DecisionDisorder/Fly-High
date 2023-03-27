@@ -57,18 +57,18 @@
 - VCS: Unity Collaborate → GitHub
 
 ### [개발 이슈]
-1. 최적화
-APK 빌드 테스트 때 프레임이 30에서 40으로 낮게 유지되는 문제가 있었습니다.  
-프레임을 안정적으로 높이기 위해 프로파일링을 진행하여,  string.Format()를 StringBuilder.AppendFormat으로 교체하여 약 62%가량 개선하였습니다.  
-또한, 자주 업데이트 되는 UI를 별도의 Canvas로 분리하였으며, physics나 빌드 설정들을 간소화하여 최적화를 진행했습니다.   
-그 결과, 발사 직전까지 60프레임을 유지하는 수준으로 최적화가 진행되었으나, 발사 직후부터 다시 3~40 프레임으로 떨어지는 문제가 발생하였습니다.  
-여러가지 세팅을 바꿔본 결과,  빌드 설정에서 Graphic API Auto를 true로 설정하여 안정적으로 60프레임을 유지하게 되었습니다.
+**최적화**
+- APK 빌드 테스트 때 프레임이 30에서 40으로 낮게 유지되는 문제가 있었습니다.  
+- 프레임을 안정적으로 높이기 위해 프로파일링을 진행하여,  string.Format()를 StringBuilder.AppendFormat으로 교체하여 약 **62%**가량 개선하였습니다.  
+- 또한, 자주 업데이트 되는 UI를 별도의 Canvas로 분리하였으며, physics나 빌드 설정들을 간소화하여 최적화를 진행했습니다.   
+- 그 결과, 발사 직전까지 60프레임을 유지하는 수준으로 최적화가 진행되었으나, 발사 직후부터 다시 3~40 프레임으로 떨어지는 문제가 발생하였습니다.  
+- 여러가지 세팅을 바꿔본 결과,  빌드 설정에서 Graphic API Auto를 true로 설정하여 안정적으로 60프레임을 유지하게 되었습니다.
 
-2. 로컬라이징 시스템 도입
-게임 개발 초기 단계부터 언어 설정을 고려하여 개발하기 시작했습니다.  
-기본적으로 영어와 한국어 전환을 지원하며, 태블릿 UI의 설정에서 언어 설정이 가능합니다.  
-Excel을 이용하여 key와 value를 정리했으며, key에는 언어 공통으로 사용할 코드, value에는 언어별 텍스트를 입력하였습니다.  
-xlsx 파일을 json 형식으로 변환 후, C#의 Dictionary로 읽어들여 Text UI에 적용하였습니다.  
+**로컬라이징 시스템 도입**
+- 게임 개발 초기 단계부터 언어 설정을 고려하여 개발하기 시작했습니다.  
+- 기본적으로 영어와 한국어 전환을 지원하며, 태블릿 UI의 설정에서 언어 설정이 가능합니다.  
+- Excel을 이용하여 key와 value를 정리했으며, key에는 언어 공통으로 사용할 코드, value에는 언어별 텍스트를 입력하였습니다.  
+- xlsx 파일을 json 형식으로 변환 후, C#의 Dictionary로 읽어들여 Text UI에 적용하였습니다.  
 (관련 코드: [LocalizationManager.cs](https://github.com/DecisionDisorder/Fly-High/blob/master/Assets/Script/LocalizationManager.cs "LocalizationManager.cs"))
 
 ## 기타
